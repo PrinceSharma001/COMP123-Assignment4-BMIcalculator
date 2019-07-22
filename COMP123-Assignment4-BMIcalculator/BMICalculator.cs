@@ -16,5 +16,10 @@ namespace COMP123_Assignment4_BMIcalculator
         {
             InitializeComponent();
         }
+
+        private void BMICalculator_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
