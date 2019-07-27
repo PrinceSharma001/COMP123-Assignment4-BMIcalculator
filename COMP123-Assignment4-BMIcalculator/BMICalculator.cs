@@ -8,6 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+//Prince Sharma
+//301043771
+
 namespace COMP123_Assignment4_BMIcalculator
 {
     public partial class BMICalculator : Form
@@ -58,6 +61,11 @@ namespace COMP123_Assignment4_BMIcalculator
             outputString = "0";
         }
 
+        /// <summary>
+        /// This checks if Imperial unit button is checked
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void ImperialUnitRadioButton_CheckedChanged(object sender, EventArgs e)
         {
 
@@ -65,12 +73,23 @@ namespace COMP123_Assignment4_BMIcalculator
             KilogramLabel.Text = "Lb";
         }
 
+        /// <summary>
+        /// This checks if metric unit button is checked
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void MetricUnitRadioButton_CheckedChanged(object sender, EventArgs e)
         {
              MetreLabel.Text = "m";
             KilogramLabel.Text = "Kg";
         }
 
+
+        /// <summary>
+        /// This is an Event handler For Calculate BMI click event
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void CalculateBMIButton_Click(object sender, EventArgs e)
         {
             //
@@ -92,6 +111,12 @@ namespace COMP123_Assignment4_BMIcalculator
             CalculatedBMITextBox.Text = result.ToString();
         }
 
+
+        /// <summary>
+        /// This is an click event for Reset Button
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void ResetButton_Click(object sender, EventArgs e)
         {
             ImperialUnitRadioButton.Checked = true;

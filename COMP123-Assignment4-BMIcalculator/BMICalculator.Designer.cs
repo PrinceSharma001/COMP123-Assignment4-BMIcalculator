@@ -302,7 +302,7 @@
             this.BackButton.Size = new System.Drawing.Size(68, 40);
             this.BackButton.TabIndex = 2;
             this.BackButton.Tag = "clear";
-            this.BackButton.Text = "CA";
+            this.BackButton.Text = "AC";
             this.BackButton.UseVisualStyleBackColor = false;
             this.BackButton.Click += new System.EventHandler(this.CalculatorButtons_Click);
             // 
@@ -464,7 +464,7 @@
             this.WeightLabel.Name = "WeightLabel";
             this.WeightLabel.Size = new System.Drawing.Size(142, 63);
             this.WeightLabel.TabIndex = 4;
-            this.WeightLabel.Text = "MyWeight:";
+            this.WeightLabel.Text = " 063.";
             this.WeightLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // CalculateBMIButton
